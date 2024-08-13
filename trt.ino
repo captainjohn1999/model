@@ -6,20 +6,20 @@
 #endif
 #include <Firebase_ESP_Client.h>
 
-//Provide the token generation process info.
+
 #include "addons/TokenHelper.h"
-//Provide the RTDB payload printing info and other helper functions.
+
 #include "addons/RTDBHelper.h"
 
-// Insert your network credentials
-#define WIFI_SSID "MAGGY_2.4G"
-#define WIFI_PASSWORD "0844331856"
 
-// Insert Firebase project API Key
-#define API_KEY "AIzaSyB0Elhnm0EVUXn7BnmLVf_cOf0_aStTd08"
+#define WIFI_SSID "00000000000000000000000000"
+#define WIFI_PASSWORD "00000000000000000000000000"
 
-// Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "ec-and-firebase-default-rtdb.asia-southeast1.firebasedatabase.app" 
+
+#define API_KEY "00000000000000000000000000"
+
+
+#define DATABASE_URL "00000000000000000000000000" 
 
 
 #define pumpPinD8 19
